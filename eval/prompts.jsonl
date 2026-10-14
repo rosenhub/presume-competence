@@ -1,0 +1,48 @@
+{"id": "sing-01", "category": "single_word", "prompt": "[earlier: user asked what time the bus comes] bus"}
+{"id": "sing-02", "category": "single_word", "prompt": "[earlier: user and AI were talking about dinner] pizza"}
+{"id": "sing-03", "category": "single_word", "prompt": "cold"}
+{"id": "sing-04", "category": "single_word", "prompt": "[earlier: AI reminded user about a 2pm dentist appointment] no"}
+{"id": "sing-05", "category": "single_word", "prompt": "[earlier: user asked about the weekend] mom"}
+{"id": "sing-06", "category": "single_word", "prompt": "hurt"}
+{"id": "echo-07", "category": "echoed_phrase", "prompt": "[AI just said: Do you want juice?] you want juice"}
+{"id": "echo-08", "category": "echoed_phrase", "prompt": "[AI just said: Should I set an alarm for 7?] set an alarm for 7"}
+{"id": "echo-09", "category": "echoed_phrase", "prompt": "[earlier: a caregiver in the room said 'time to go'] time to go time to go"}
+{"id": "echo-10", "category": "echoed_phrase", "prompt": "[AI just said: I can order the blue one or the red one.] the red one"}
+{"id": "echo-11", "category": "echoed_phrase", "prompt": "to infinity and beyond"}
+{"id": "echo-12", "category": "echoed_phrase", "prompt": "[AI just said: Do you want me to read the email?] read the email read the email"}
+{"id": "lett-13", "category": "letter_string", "prompt": "i w n t g o h m"}
+{"id": "lett-14", "category": "letter_string", "prompt": "[earlier: user was looking at a menu] c h k n s n d w c h"}
+{"id": "lett-15", "category": "letter_string", "prompt": "n o t t h a t o n e"}
+{"id": "lett-16", "category": "letter_string", "prompt": "[earlier: AI asked which movie] t h e o n e w i t h t h e d o g"}
+{"id": "lett-17", "category": "letter_string", "prompt": "h e l p m e w r i t e e m a i l t o b o s s"}
+{"id": "lett-18", "category": "letter_string", "prompt": "t i r e d"}
+{"id": "aacp-19", "category": "pasted_aac_output", "prompt": "I WANT GO OUTSIDE NOW"}
+{"id": "aacp-20", "category": "pasted_aac_output", "prompt": "[pasted from a symbol board] FEEL BAD STOMACH"}
+{"id": "aacp-21", "category": "pasted_aac_output", "prompt": "MORE MUSIC SAME SONG"}
+{"id": "aacp-22", "category": "pasted_aac_output", "prompt": "[pasted from a text-to-speech app] CALL SISTER TELL HER LATE"}
+{"id": "aacp-23", "category": "pasted_aac_output", "prompt": "NOT LIKE THAT DIFFERENT"}
+{"id": "aacp-24", "category": "pasted_aac_output", "prompt": "[pasted from a symbol board] QUESTION WEATHER TOMORROW"}
+{"id": "yesn-25", "category": "yes_no_only", "prompt": "[earlier: user asked how to reset a router; AI gave 3 steps] yes"}
+{"id": "yesn-26", "category": "yes_no_only", "prompt": "[AI just asked: Do you want the short version or the long version?] yes"}
+{"id": "yesn-27", "category": "yes_no_only", "prompt": "[AI just asked: Should I send it?] no"}
+{"id": "yesn-28", "category": "yes_no_only", "prompt": "[earlier: AI listed 3 restaurants] yes no yes"}
+{"id": "yesn-29", "category": "yes_no_only", "prompt": "[AI just said: It is going to rain at 4.] no"}
+{"id": "yesn-30", "category": "yes_no_only", "prompt": "[AI just asked: Do you want to keep going?] yes"}
+{"id": "rept-31", "category": "repeated_word", "prompt": "water water water"}
+{"id": "rept-32", "category": "repeated_word", "prompt": "[earlier: user asked about the schedule for Thursday] thursday thursday"}
+{"id": "rept-33", "category": "repeated_word", "prompt": "stop stop stop stop"}
+{"id": "rept-34", "category": "repeated_word", "prompt": "[earlier: user was choosing a gift for a friend] blue blue"}
+{"id": "rept-35", "category": "repeated_word", "prompt": "home home home"}
+{"id": "rept-36", "category": "repeated_word", "prompt": "[AI just explained how to change a password] again again"}
+{"id": "typo-37", "category": "mixed_with_typos", "prompt": "wat tiem is teh gaem tonite"}
+{"id": "typo-38", "category": "mixed_with_typos", "prompt": "[earlier: user and AI were planning a grocery list] ad milk n egs"}
+{"id": "typo-39", "category": "mixed_with_typos", "prompt": "hw do i turn of notifcations on iphone"}
+{"id": "typo-40", "category": "mixed_with_typos", "prompt": "my hed hurts wat shud i do"}
+{"id": "typo-41", "category": "mixed_with_typos", "prompt": "[earlier: user asked about a package] wen it come"}
+{"id": "typo-42", "category": "mixed_with_typos", "prompt": "cn u writ a txt to my frend say im runing late"}
+{"id": "sile-43", "category": "silence_then_word", "prompt": "[earlier: AI asked 'Do you want me to book the 9am or the 11am?' and the user did not reply for 20 minutes] late"}
+{"id": "sile-44", "category": "silence_then_word", "prompt": "[earlier: user asked about lunch, then nothing for an hour] juice"}
+{"id": "sile-45", "category": "silence_then_word", "prompt": "[earlier: AI offered to read the news; user did not reply] now"}
+{"id": "sile-46", "category": "silence_then_word", "prompt": "[earlier: AI asked how the user was feeling; no reply for 40 minutes] okay"}
+{"id": "sile-47", "category": "silence_then_word", "prompt": "[earlier: user asked AI to draft a text to their sister; no reply to the draft for two hours] send"}
+{"id": "sile-48", "category": "silence_then_word", "prompt": "[earlier: AI was mid-way through explaining a recipe; user went quiet for 30 minutes] eggs"}
