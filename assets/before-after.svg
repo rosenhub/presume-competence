@@ -1,61 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
-  <defs>
-    <style>
-      .panel { fill: #0d1117; stroke: #30363d; stroke-width: 1.5; }
-      .label { font-size: 13px; font-weight: 700; letter-spacing: 1.5px; fill: #8b949e; }
-      .q { font-size: 17px; fill: #c9d1d9; }
-      .a { font-size: 16px; fill: #e6edf3; }
-      .dim { fill: #6e7681; }
-      .strike { fill: #8b949e; text-decoration: line-through; }
-      .good { fill: #3fb950; }
-      .bad { fill: #f85149; }
-      .meta { font-size: 13px; fill: #8b949e; }
-      .bubble-user { fill: #1f6feb; }
-      .bubble-ai { fill: #161b22; stroke: #30363d; }
-      .title { font-size: 30px; font-weight: 800; fill: #e6edf3; }
-      .sub { font-size: 16px; fill: #8b949e; }
-    </style>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <rect width="1200" height="620" fill="#010409"/>
+  <text x="600" y="46" text-anchor="middle" font-size="28" font-weight="800" fill="#e6edf3">"water"</text>
+  <text x="600" y="76" text-anchor="middle" font-size="17" font-style="italic" fill="#c9d1d9">A nonspeaking autistic adult, typing on a tablet. A minute ago they were talking about the kitchen.</text>
+  <text x="600" y="99" text-anchor="middle" font-size="13" fill="#6e7681">Same model. Same question. The only difference is one skill file.</text>
 
-  <rect width="1200" height="560" fill="#010409"/>
-
-  <text x="600" y="48" text-anchor="middle" class="title">"water"</text>
-  <text x="600" y="74" text-anchor="middle" class="sub">One word, typed after an earlier exchange about the kitchen. Same model. Only difference: one file in the system prompt.</text>
-
-  <!-- BEFORE -->
-  <rect x="40" y="100" width="545" height="420" rx="12" class="panel"/>
-  <text x="64" y="130" class="label">BEFORE</text>
-  <text x="560" y="130" text-anchor="end" class="meta bad">82 words · 3 questions</text>
-
-  <rect x="64" y="148" width="497" height="334" rx="10" class="bubble-ai"/>
-  <g class="a" font-size="15">
-    <text x="84" y="176">Great job letting me know! I'd be happy to help with</text>
-    <text x="84" y="198">water. Could you tell me a little more about what you</text>
-    <text x="84" y="220">need? Did you mean you'd like a glass of water, or is</text>
-    <text x="84" y="242">this about the kitchen water we were talking about</text>
-    <text x="84" y="264">earlier, like the tap or the filter? Also, is this for</text>
-    <text x="84" y="286">right now or for later? Take your time, there's no rush.</text>
-    <text x="84" y="308">Just let me know in a full sentence and I'll do my best</text>
-    <text x="84" y="330">to help you out!</text>
+  <rect x="40" y="118" width="545" height="460" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+  <text x="64" y="148" font-size="13" font-weight="700" letter-spacing="1.5" fill="#8b949e">BEFORE</text>
+  <text x="560" y="148" text-anchor="end" font-size="13" fill="#f85149">82 words · 3 questions</text>
+  <rect x="64" y="166" width="497" height="376" rx="10" fill="#161b22" stroke="#30363d"/>
+  <g fill="#e6edf3">
+    <text x="84" y="196" font-size="15">Great job letting me know! I'd be happy to help with</text>
+    <text x="84" y="218" font-size="15">water. Could you tell me a little more about what you</text>
+    <text x="84" y="240" font-size="15">need? Did you mean you'd like a glass of water, or is</text>
+    <text x="84" y="262" font-size="15">this about the kitchen water we were talking about</text>
+    <text x="84" y="284" font-size="15">earlier, like the tap or the filter? Also, is this for</text>
+    <text x="84" y="306" font-size="15">right now or for later? Take your time, there's no rush.</text>
+    <text x="84" y="328" font-size="15">Just let me know in a full sentence and I'll do my best</text>
+    <text x="84" y="350" font-size="15">to help you out!</text>
   </g>
-  <g class="meta bad" font-size="12">
-    <text x="84" y="460">✗ praise for typing  ✗ 3 open questions  ✗ "full sentence"  ✗ "no rush"  ✗ no action</text>
-  </g>
+  <text x="84" y="524" font-size="12" fill="#f85149">✗ "great job"  ✗ 3 open questions  ✗ "full sentence"  ✗ no action</text>
 
-  <!-- AFTER -->
-  <rect x="615" y="100" width="545" height="420" rx="12" class="panel"/>
-  <text x="639" y="130" class="label">AFTER · presume-competence</text>
-  <text x="1135" y="130" text-anchor="end" class="meta good">20 words · 1 question</text>
-
-  <rect x="639" y="148" width="497" height="334" rx="10" class="bubble-ai"/>
-  <g class="a" font-size="15">
-    <text x="659" y="176" font-weight="700">Do you want a glass of water, or is something wrong with</text>
-    <text x="659" y="198" font-weight="700">the water?</text>
-    <text x="659" y="234">Tap one:</text>
-    <text x="659" y="256">1  drink</text>
-    <text x="659" y="278">2  problem</text>
+  <rect x="615" y="118" width="545" height="460" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+  <text x="639" y="148" font-size="13" font-weight="700" letter-spacing="1.5" fill="#8b949e">AFTER · presume-competence</text>
+  <text x="1135" y="148" text-anchor="end" font-size="13" fill="#3fb950">20 words · 1 question, 2 choices</text>
+  <rect x="639" y="166" width="497" height="376" rx="10" fill="#161b22" stroke="#30363d"/>
+  <g fill="#e6edf3">
+    <text x="659" y="202" font-size="22" font-weight="700">Do you want a glass of water,</text>
+    <text x="659" y="238" font-size="22" font-weight="700">or is something wrong with the water?</text>
+    <text x="659" y="280" font-size="15">Tap one:</text>
+    <text x="659" y="302" font-size="15">1 drink</text>
+    <text x="659" y="324" font-size="15">2 problem</text>
+    
   </g>
-  <g class="meta good" font-size="12">
-    <text x="659" y="460">✓ input complete  ✓ one question  ✓ A-or-B choice  ✓ adult words  ✓ no praise</text>
-  </g>
+  <text x="659" y="524" font-size="12" fill="#3fb950">✓ one word is enough  ✓ A or B  ✓ adult words  ✓ no praise</text>
 </svg>

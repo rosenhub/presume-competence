@@ -22,7 +22,7 @@
 npx skills add rosenhub/presume-competence
 ```
 
-<img src="assets/before-after.png" alt="Before: 82 words, 3 questions, praise for typing, asks for a full sentence. After: 20 words, 1 question, two numbered choices." width="100%">
+<img src="assets/before-after.png" alt="Before: 82 words · 3 questions. After: 20 words · 1 question, 2 choices. A nonspeaking autistic adult, typing on a tablet. A minute ago they were talking about the kitchen." width="100%">
 
 Part of [AI Their Way](https://github.com/rosenhub/ai-their-way) — siblings: [no-subtext](https://github.com/rosenhub/no-subtext) · [what-did-they-mean](https://github.com/rosenhub/what-did-they-mean) · [never-say-remember](https://github.com/rosenhub/never-say-remember) · [easy-read](https://github.com/rosenhub/easy-read) · [low-demand](https://github.com/rosenhub/low-demand) · [is-this-a-scam](https://github.com/rosenhub/is-this-a-scam) · [one-thing](https://github.com/rosenhub/one-thing)
 
@@ -89,6 +89,8 @@ If your host isn't here and it reads markdown instructions from a file, it works
 Same model. Same input. The only change is the skill.
 
 ### `bus` (earlier in the chat: the user asked what time the bus comes)
+
+*A nonspeaking autistic adult, typing on a tablet. A minute ago they were talking about the kitchen.*
 
 **Before**
 
