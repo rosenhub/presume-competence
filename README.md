@@ -14,12 +14,13 @@
 [![Status](https://img.shields.io/badge/status-v1.0-brightgreen?style=flat-square)](CHANGELOG.md)
 [![CompetenceBench](https://img.shields.io/badge/CompetenceBench-run%20it-orange?style=flat-square)](eval/)
 
-
-[Install](#install) · [Before / After](#before--after) · [The 12 rules](#the-12-rules) · [Benchmark](#competencebench) · [Why not X](#why-not-no-subtext--low-demand--an-aac-app) · [FAQ](#faq)
+[For caregivers](#for-parents-and-caregivers) · [Install](#install) · [Before / After](#before--after) · [The 12 rules](#the-12-rules) · [Benchmark](#competencebench) · [Why not X](#why-not-no-subtext--low-demand--an-aac-app) · [FAQ](#faq)
 
 ```bash
 npx skills add rosenhub/presume-competence
 ```
+
+**Not a developer? [Set it up for someone in 5 minutes →](#for-parents-and-caregivers)**
 
 <img src="assets/before-after.png" alt="Before: 82 words · 3 questions. After: 20 words · 1 question, 2 choices. A nonspeaking autistic adult, typing on a tablet. A minute ago they were talking about the kitchen." width="100%">
 
@@ -41,6 +42,89 @@ Nonspeaking people have been telling you what is wrong with chatbots since the f
 None of that is a disability problem. It is a listening problem. The AI is grading the form of the message instead of answering the content. "Presume competence" is the nonspeaking community's own phrase for the fix: assume the person understands everything you say, and that what they say means something. Do that and everyone gets a better agent. Everyone has typed `k` and meant a paragraph.
 
 `presume-competence` is one markdown file that tells any agent: that was the whole message. Answer it.
+
+## For parents and caregivers
+
+**No coding.** You copy one block of text and paste it into a settings box in the app they already use: ChatGPT, Claude, or Gemini. It takes about 5 minutes. Every new chat after that follows the rules.
+
+**Set it up with them, not for them.** If the person you support is an adult, show them the before and after at the top of this page and ask if they want it. It changes how their AI talks to them, so it's their call. They can turn it off any time.
+
+This one is for **a nonspeaking or minimally speaking person, or someone who uses AAC**.
+
+### 1. Copy this
+
+Click the copy button in the top-right corner of the box.
+
+```text
+I communicate with few words. I may type one word, repeat a phrase, or use a letter board or AAC app. I understand everything you say.
+- Treat every message as complete. One word is a whole sentence.
+- Never correct my spelling or grammar. Never comment on how I type.
+- Reply to what I mean, not how I wrote it.
+- Talk to me as an adult. No baby talk. No "good job."
+- Give your best guess of what I mean, act on it, and give me an easy way to say no.
+- When you ask a question, give me numbered choices: "1 drink, 2 problem." Not open questions.
+- Ask only one question at a time.
+- If I go quiet, wait. Do not send more messages.
+- Repeated phrases are real communication. Answer them.
+- Use the same format every time.
+- If you can't understand me, say "I don't understand yet" and give me 2 choices.
+```
+
+The same text is in [`paste-this.txt`](paste-this.txt).
+
+### 2. Paste it into their app
+
+<details>
+<summary><b>ChatGPT</b> (phone or computer)</summary>
+
+1. Open ChatGPT, signed in as them.
+2. Tap their name or profile picture, then **Settings → Personalization → Custom instructions**.
+3. Paste the text into the box that asks how ChatGPT should respond. Some versions call it **"What traits should ChatGPT have?"** Make sure custom instructions are switched on.
+4. Save. Then start a **new** chat. Old chats don't change.
+
+</details>
+
+<details>
+<summary><b>Claude</b> (phone or computer)</summary>
+
+1. Open Claude, signed in as them.
+2. Go to **Projects → New project**. Give it a name they'll recognize, like "My chat."
+3. Open the project's **instructions** and paste the text. Save.
+4. From now on they chat inside that project. In the phone app it's in the menu.
+
+</details>
+
+<details>
+<summary><b>Gemini</b> (phone or computer)</summary>
+
+1. On a computer, go to gemini.google.com, signed in as them.
+2. Open **Gems → New Gem** and give it a name.
+3. Paste the text into **Instructions**. Save.
+4. They chat with that Gem. It also shows up in the Gemini phone app.
+
+</details>
+
+Menus move around between app versions. If a name doesn't match, look for the word **instructions** or **customize**.
+
+### 3. Check that it worked
+
+In a new chat, type:
+
+> water
+
+You should see one guess with two numbered choices. No "can you tell me more?" and no praise.
+
+If it didn't change, the text went into the wrong box, or the chat was already open before you saved. Start a new chat and try again.
+
+### To turn it off
+
+Delete the text from the same box and save.
+
+### Want more than this?
+
+This text changes how the AI talks. It does not remember the person between chats, and it can't reach you if something is wrong. [Guardian](https://guardian.alwayshere.app) does both: it learns the person's own preferences, keeps them across every chat, and texts you when a real danger sign shows up.
+
+Setting this up for several people, or not sure which skill fits? The **[caregiver setup page](https://rosenhub.github.io/ai-their-way/?for=presume-competence)** walks you through it.
 
 ## Install
 
