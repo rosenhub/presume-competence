@@ -14,7 +14,6 @@
 [![Status](https://img.shields.io/badge/status-v1.0-brightgreen?style=flat-square)](CHANGELOG.md)
 [![CompetenceBench](https://img.shields.io/badge/CompetenceBench-run%20it-orange?style=flat-square)](eval/)
 
-**一个词就是一整句话。为不说话和少说话的自闭症人士及 AAC 使用者设计，对所有人更好。**
 
 [Install](#install) · [Before / After](#before--after) · [The 12 rules](#the-12-rules) · [Benchmark](#competencebench) · [Why not X](#why-not-no-subtext--low-demand--an-aac-app) · [FAQ](#faq)
 
